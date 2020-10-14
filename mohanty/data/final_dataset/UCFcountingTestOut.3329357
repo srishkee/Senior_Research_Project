@@ -1,0 +1,94 @@
+generate_data_color-20-80.sh
+Submitted batch job 3329362
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 16551.829235
+              Requested SUs:   672
+generate_data_color-40-60.sh
+Submitted batch job 3329363
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 16551.829235
+              Requested SUs:   672
+generate_data_color-50-50.sh
+Submitted batch job 3329364
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 15207.829235
+              Requested SUs:   672
+generate_data_color-60-40.sh
+Submitted batch job 3329365
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 15015.829235
+              Requested SUs:   672
+generate_data_color-80-20.sh
+Submitted batch job 3329366
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 15015.829235
+              Requested SUs:   672
+generate_data_for_SVM.py
+sbatch: error: (from job_submit) wall time (--time) is not specifed.
+sbatch: error: Batch job submission failed: Unspecified error
+
+generate_data_grayscale-20-80.sh
+Submitted batch job 3329368
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 13671.829235
+              Requested SUs:   672
+generate_data_grayscale-40-60.sh
+Submitted batch job 3329369
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 13671.829235
+              Requested SUs:   672
+generate_data_grayscale-50-50.sh
+Submitted batch job 3329370
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 13287.829235
+              Requested SUs:   672
+generate_data_grayscale-60-40.sh
+Submitted batch job 3329371
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 13287.829235
+              Requested SUs:   672
+generate_data_grayscale-80-20.sh
+Submitted batch job 3329372
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 13287.829235
+              Requested SUs:   672
+generate_data_segmented-20-80.sh
+Submitted batch job 3329374
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 12903.829235
+              Requested SUs:   672
+generate_data_segmented-40-60.sh
+Submitted batch job 3329375
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 12711.829235
+              Requested SUs:   672
+generate_data_segmented-50-50.sh
+Submitted batch job 3329376
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 12711.829235
+              Requested SUs:   672
+generate_data_segmented-60-40.sh
+Submitted batch job 3329377
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 12711.829235
+              Requested SUs:   672
+generate_data_segmented-80-20.sh
+Submitted batch job 3329378
+(from job_submit) your job is charged as below
+              Project Account: 122749846190
+              Account Balance: 11943.829235
+              Requested SUs:   672

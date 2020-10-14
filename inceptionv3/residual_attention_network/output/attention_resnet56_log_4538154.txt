@@ -1,0 +1,112 @@
+Using TensorFlow backend.
+2020-04-22 19:21:39.358351: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-22 19:21:39.358563: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-22 19:21:39.358594: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-22 19:22:00.948784: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-04-22 19:22:01.049263: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:83:00.0 name: Tesla K80 computeCapability: 3.7
+coreClock: 0.6405GHz coreCount: 13 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 223.96GiB/s
+2020-04-22 19:22:01.050625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:84:00.0 name: Tesla K80 computeCapability: 3.7
+coreClock: 0.6405GHz coreCount: 13 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 223.96GiB/s
+2020-04-22 19:22:01.083877: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-22 19:22:01.289186: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-22 19:22:01.396515: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-22 19:22:01.576438: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-22 19:22:01.737753: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-22 19:22:01.865389: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-22 19:22:02.061873: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-22 19:22:02.067428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1
+2020-04-22 19:22:02.068016: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-22 19:22:02.079524: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2399960000 Hz
+2020-04-22 19:22:02.081796: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f911e122c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-22 19:22:02.081839: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-04-22 19:22:02.240706: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f911e78710 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-04-22 19:22:02.240814: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla K80, Compute Capability 3.7
+2020-04-22 19:22:02.240841: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): Tesla K80, Compute Capability 3.7
+2020-04-22 19:22:02.244418: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:83:00.0 name: Tesla K80 computeCapability: 3.7
+coreClock: 0.6405GHz coreCount: 13 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 223.96GiB/s
+2020-04-22 19:22:02.246555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 1 with properties: 
+pciBusID: 0000:84:00.0 name: Tesla K80 computeCapability: 3.7
+coreClock: 0.6405GHz coreCount: 13 deviceMemorySize: 11.92GiB deviceMemoryBandwidth: 223.96GiB/s
+2020-04-22 19:22:02.251187: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-22 19:22:02.251231: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-22 19:22:02.251258: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-22 19:22:02.251282: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-22 19:22:02.251307: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-22 19:22:02.251331: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-22 19:22:02.251356: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-22 19:22:02.256843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0, 1
+2020-04-22 19:22:02.256928: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-04-22 19:22:02.260592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-22 19:22:02.260623: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 1 
+2020-04-22 19:22:02.260651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N Y 
+2020-04-22 19:22:02.260666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 1:   Y N 
+2020-04-22 19:22:02.265129: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11519 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2020-04-22 19:22:02.267076: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11519 MB memory) -> physical GPU (device: 1, name: Tesla K80, pci bus id: 0000:84:00.0, compute capability: 3.7)
+2020-04-22 19:38:11.944519: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-22 19:38:12.273137: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-04-22 19:38:14.491865: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+
+CHANGE: Running 1 with 1 attention module! encoder_depth = 1
+
+Added 1st conv_block!
+Added 1st attention_block!
+Added 2nd conv_block!
+Added 2nd identity_block!
+Added 3rd conv_block!
+Added 3rd identity_block!
+Added 4th conv_block!
+Added 4th identity_block!
+Successfully loaded model!
+Loading images...
+Loaded all training images!
+Loaded all validation images!
+Loaded all testing images!
+Successfully loaded data!
+((32570, 224, 224, 3), (10857, 224, 224, 3), (10876, 224, 224, 3))
+((32570, 38), (10857, 38), (10876, 38))
+Train on 32570 samples, validate on 10857 samples
+Epoch 1/100
+
+   32/32570 [..............................] - ETA: 6:39:56 - loss: 4.6008 - accuracy: 0.0312 - top_k_categorical_accuracy: 0.0625
+   64/32570 [..............................] - ETA: 3:33:09 - loss: 9.1735 - accuracy: 0.0781 - top_k_categorical_accuracy: 0.2656
+   96/32570 [..............................] - ETA: 2:30:52 - loss: 10.3081 - accuracy: 0.1042 - top_k_categorical_accuracy: 0.3438
+  128/32570 [..............................] - ETA: 1:59:41 - loss: 11.7424 - accuracy: 0.1172 - top_k_categorical_accuracy: 0.3281
+  160/32570 [..............................] - ETA: 1:40:59 - loss: 11.9016 - accuracy: 0.0938 - top_k_categorical_accuracy: 0.3063
+  192/32570 [..............................] - ETA: 1:28:30 - loss: 11.7248 - accuracy: 0.0938 - top_k_categorical_accuracy: 0.2760
+  224/32570 [..............................] - ETA: 1:19:35 - loss: 11.0087 - accuracy: 0.0893 - top_k_categorical_accuracy: 0.2857
+  256/32570 [..............................] - ETA: 1:12:53 - loss: 10.5481 - accuracy: 0.0781 - top_k_categorical_accuracy: 0.2773
+  288/32570 [..............................] - ETA: 1:07:40 - loss: 10.2158 - accuracy: 0.0729 - top_k_categorical_accuracy: 0.2639
+  320/32570 [..............................] - ETA: 1:03:29 - loss: 9.8210 - accuracy: 0.0688 - top_k_categorical_accuracy: 0.2594 
+  352/32570 [..............................] - ETA: 1:00:03 - loss: 9.3081 - accuracy: 0.0653 - top_k_categorical_accuracy: 0.2614
+  384/32570 [..............................] - ETA: 57:12 - loss: 9.0466 - accuracy: 0.0625 - top_k_categorical_accuracy: 0.2578  
+  416/32570 [..............................] - ETA: 54:47 - loss: 8.7283 - accuracy: 0.0601 - top_k_categorical_accuracy: 0.2596
+  448/32570 [..............................] - ETA: 52:42 - loss: 8.3735 - accuracy: 0.0603 - top_k_categorical_accuracy: 0.2500
+  480/32570 [..............................] - ETA: 50:54 - loss: 8.0912 - accuracy: 0.0625 - top_k_categorical_accuracy: 0.2562
+  512/32570 [..............................] - ETA: 49:19 - loss: 7.8199 - accuracy: 0.0664 - top_k_categorical_accuracy: 0.2598
+  544/32570 [..............................] - ETA: 47:55 - loss: 7.5919 - accuracy: 0.0625 - top_k_categorical_accuracy: 0.2592
+  576/32570 [..............................] - ETA: 46:40 - loss: 7.3609 - accuracy: 0.0642 - top_k_categorical_accuracy: 0.2587
+  608/32570 [..............................] - ETA: 45:33 - loss: 7.1705 - accuracy: 0.0674 - top_k_categorical_accuracy: 0.2632
+  640/32570 [..............................] - ETA: 44:32 - loss: 7.0140 - accuracy: 0.0703 - top_k_categorical_accuracy: 0.2609
+  672/32570 [..............................] - ETA: 43:37 - loss: 6.8385 - accuracy: 0.0729 - top_k_categorical_accuracy: 0.2708
+  704/32570 [..............................] - ETA: 42:47 - loss: 6.6735 - accuracy: 0.0753 - top_k_categorical_accuracy: 0.2784
+  736/32570 [..............................] - ETA: 42:01 - loss: 6.5152 - accuracy: 0.0802 - top_k_categorical_accuracy: 0.2826
+  768/32570 [..............................] - ETA: 41:19 - loss: 6.3862 - accuracy: 0.0846 - top_k_categorical_accuracy: 0.2917
+  800/32570 [..............................] - ETA: 40:40 - loss: 6.3037 - accuracy: 0.0838 - top_k_categorical_accuracy: 0.2925
+  832/32570 [..............................] - ETA: 40:04 - loss: 6.1916 - accuracy: 0.0889 - top_k_categorical_accuracy: 0.2969
+  864/32570 [..............................] - ETA: 39:31 - loss: 6.0811 - accuracy: 0.0914 - top_k_categorical_accuracy: 0.2998
+  896/32570 [..............................] - ETA: 39:00 - loss: 6.0034 - accuracy: 0.0960 - top_k_categorical_accuracy: 0.3058
+  928/32570 [..............................] - ETA: 38:31 - loss: 5.9064 - accuracy: 0.0959 - top_k_categorical_accuracy: 0.3103
+  960/32570 [..............................] - ETA: 38:04 - loss: 5.8167 - accuracy: 0.0958 - top_k_categorical_accuracy: 0.3104
+  992/32570 [..............................] - ETA: 37:38 - loss: 5.7165 - accuracy: 0.1018 - top_k_categorical_accuracy: 0.3216
+ 1024/32570 [..............................] - ETA: 37:14 - loss: 5.6305 - accuracy: 0.1045 - top_k_categorical_accuracy: 0.3262
+ 1056/32570 [..............................] - ETA: 36:51 - loss: 5.5525 - accuracy: 0.1080 - top_k_categorical_accuracy: 0.3286
+ 1088/32570 [>.............................] - ETA: 36:30 - loss: 5.4730 - accuracy: 0.1103 - top_k_categorical_accuracy: 0.3346
+ 1120/32570 [>.............................] - ETA: 36:09 - loss: 5.4025 - accuracy: 0.1143 - top_k_categorical_accuracy: 0.3393
+ 1152/32570 [>.............................] - ETA: 35:50 - loss: 5.3423 - accuracy: 0.1155 - top_k_categorical_accuracy: 0.3420
+ 1184/32570 [>.............................] - ETA: 35:31 - loss: 5.2858 - accuracy: 0.1174 - top_k_categorical_accuracy: 0.3429
+ 1216/32570 [>.............................] - ETA: 35:14 - loss: 5.2401 - accuracy: 0.1143 - top_k_categorical_accuracy: 0.3462
+ 1248/32570 [>.............................] - ETA: 34:57 - loss: 5.1880 - accuracy: 0.1138 - top_k_categorical_accuracy: 0.3486slurmstepd: error: *** JOB 4538154 ON tgpu-0305 CANCELLED AT 2020-04-22T19:39:19 ***
